@@ -1,0 +1,40 @@
+body
+{
+    background-image: linear-gradient(to right top, #000000, #011730, #00324f, #004265, #036c9c); 
+    color: aliceblue;
+}
+#score 
+{
+    font-size: large;
+    margin-right: 80%;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+#timer
+{
+    font-size: large;
+    margin-left: 70%;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+canvas
+{
+    border: 5px solid white; 
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px gray;}
+    to {box-shadow: 1px 1px 38px whitesmoke;}
+
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
